@@ -11,7 +11,7 @@ $antideo = new Antideo();
 ```
 
 ## Get email address info
-Query any email address and get its SPAM & SCAM scores. You will also be able to determine if given email is comming from free provider like Yahoo and GMAIL, or is part of disposable/temporary email addres network/providers.
+Query any email address and get its SPAM & SCAM scores. You will also be able to determine if given email is comming from free provider like Yahoo and GMAIL, or is part of disposable/temporary email address networks and providers.
 
 More details: [Email endpoint](http://antideo.com/documentation/#email-address-queries)
 
