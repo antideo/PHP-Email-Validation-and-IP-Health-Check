@@ -65,7 +65,7 @@ Provides the following geolocation details for any IP address.
 * Accuracy (from 1 to 1000)
 * City
 * Country
-* Country code ([ISO code])(https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2))
+* Country code ([ISO code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2))
 
 More details: [IP Info endpoint](http://antideo.com/documentation/#location)
 
