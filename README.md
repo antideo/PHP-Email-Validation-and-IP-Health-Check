@@ -48,7 +48,7 @@ Queries IP address health and returns the following:
 * Spam
 * Proxy (if is know TOR project exit node, Anonimous or Open proxy etc.)
 
-More details: [IP Info endpoint](http://antideo.com/documentation/#health)
+More details: [IP health endpoint](http://antideo.com/documentation/#health)
 
 ``` php
 try {
@@ -67,7 +67,7 @@ Provides the following geolocation details for any IP address.
 * Country
 * Country code ([ISO code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2))
 
-More details: [IP Info endpoint](http://antideo.com/documentation/#location)
+More details: [IP location endpoint](http://antideo.com/documentation/#location)
 
 ``` php
 try {
@@ -79,4 +79,4 @@ try {
 
 
 ## Exception handling
-If for any reason the API query fails you will get an exception, so it's very important to handle them in order to prevent unecpected behaviour. As demonstrated in the examples above all exceptions are catched. To grab the HTTP response code from the exceptions use `$e->getCode()`
+If for any reason the API query fails you will get an exception, so it's very important to handle them in order to prevent unexpected behaviour. As demonstrated in the examples above all exceptions are catched. To grab the HTTP response code from the exceptions use `$e->getCode()`
