@@ -106,7 +106,7 @@ class Antideo {
  	 * Base URL to Antideo's REST API
  	 * @var string
  	 */
-    private $baseURL = 'http://api.antideo.com';
+    private $baseURL = 'https://api.antideo.com';
     
     
     /** 
