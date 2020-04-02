@@ -13,7 +13,7 @@ $antideo = new Antideo();
 ## Get email address info
 Query any email address and get its SPAM & SCAM scores. You will also be able to determine if given email is comming from free provider like Yahoo and GMAIL, or is part of disposable/temporary email address networks and providers.
 
-More details: [Email endpoint](http://antideo.com/documentation/#email-address-queries)
+More details: [Email Address Validation Endpoint](http://antideo.com/documentation/#email-address-queries)
 
 ``` php
 try {
@@ -48,7 +48,7 @@ Queries IP address health and returns the following:
 * Spam
 * Proxy (if is know TOR project exit node, Anonimous or Open proxy etc.)
 
-More details: [IP health endpoint](http://antideo.com/documentation/#health)
+More details: [IP Health Check Endpoint](http://antideo.com/documentation/#health)
 
 ``` php
 try {
@@ -67,7 +67,7 @@ Provides the following geolocation details for any IP address.
 * Country
 * Country code ([ISO code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2))
 
-More details: [IP location endpoint](http://antideo.com/documentation/#location)
+More details: [Get IP location Endpoint](http://antideo.com/documentation/#location)
 
 ``` php
 try {
